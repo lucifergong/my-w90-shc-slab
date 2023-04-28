@@ -1,0 +1,119 @@
+
+     Program PW2WANNIER v.6.1 (svn rev. 13369) starts on 23Jul2021 at 16:20:22 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    24 processors
+     R & G space division:  proc/nbgrp/npool/nimage =      24
+
+  Reading nscf_save data
+
+     Reading data from directory:
+     ./sil.save
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1, nr2, nr3 values from input
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      =  SLA  PZ   NOGX NOGC ( 1  1  0  0 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+               file H.pz-vbc.UPF: wavefunction(s)  1S renormalized
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          76      76     18                 2452     2452     298
+     Max          78      78     20                 2460     2460     308
+     Sum        1829    1829    457                58893    58893    7249
+
+
+  Spin CASE ( default = unpolarized )
+
+  Wannier mode is: standalone     
+
+  -----------------
+  *** Reading nnkp 
+  -----------------
+
+  Checking info from wannier.nnkp file
+
+  - Real lattice is ok
+  - Reciprocal lattice is ok
+  - K-points are ok
+  - Number of wannier functions is ok (  4)
+  - All guiding functions are given 
+
+ Projections:
+    0.000000    0.000000    0.000000 -3  1  1    1.000000
+    0.000000    0.000000    0.000000 -3  2  1    1.000000
+    0.000000    0.000000    0.000000 -3  3  1    1.000000
+    0.000000    0.000000    0.000000 -3  4  1    1.000000
+
+  Reading data about k-point neighbours 
+
+  All neighbours are found 
+
+  Opening pp-files 
+
+
+  ---------------
+  *** Compute  A 
+  ---------------
+
+  AMN: iknum =        1
+       1
+
+  AMN calculated
+
+  ---------------
+  *** Compute  M 
+  ---------------
+
+  MMN: iknum =        1
+       1
+
+  MMN calculated
+
+  -----------------------------------
+  *** Orbital terms are not computed 
+  -----------------------------------
+
+  ----------------
+  *** Write bands 
+  ----------------
+
+
+  -----------------------------
+  *** Plot info is not printed 
+  -----------------------------
+
+  -----------------------------
+  *** Parity info is not printed 
+  -----------------------------
+
+  ------------
+  *** Stop pp 
+  ------------
+
+
+     init_pw2wan  :      0.22s CPU      0.65s WALL (       1 calls)
+     compute_amn  :      0.09s CPU      0.10s WALL (       1 calls)
+     compute_mmn  :      0.00s CPU      0.01s WALL (       1 calls)
+
+     PW2WANNIER   :     0.31s CPU         0.80s WALL
+
+
+   This run was terminated on:  16:20:22  23Jul2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
+

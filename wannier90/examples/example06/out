@@ -1,0 +1,542 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s04n05>
+Subject: Job 33444112: <ptwan> in cluster <hpc> Exited
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:33:10 2021
+Job was executed on host(s) <24*s04n05>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:33:13 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example06> was used as the working directory.
+Started at Fri Jul 23 15:33:13 2021
+Terminated at Fri Jul 23 15:33:18 2021
+Results reported at Fri Jul 23 15:33:18 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+mpirun -np 24 $BIN2 < copper.scf >   scf.out
+#mpirun -np 24 $BIN2 < copper.nscf > nscf.out
+#mpirun -np 24 $BIN3 < Pt.pw2wan > pw2wan.out 
+#mpirun -np 24 $BIN4 Pt
+#mpirun -np 24 $BIN5 Pt  
+
+------------------------------------------------------------
+
+Exited with exit code 255.
+
+Resource usage summary:
+
+    CPU time :                                   20.00 sec.
+    Max Memory :                                 16 MB
+    Average Memory :                             16.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   17592186044415 MB
+    Max Processes :                              7
+    Max Threads :                                9
+    Run time :                                   4 sec.
+    Turnaround time :                            8 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s04n05>
+Subject: Job 33444113: <ptwan> in cluster <hpc> Exited
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:34:00 2021
+Job was executed on host(s) <24*s04n05>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:34:03 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example06> was used as the working directory.
+Started at Fri Jul 23 15:34:03 2021
+Terminated at Fri Jul 23 15:34:06 2021
+Results reported at Fri Jul 23 15:34:06 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+#mpirun -np 24 $BIN2 < copper.scf >   scf.out
+mpirun -np 24 $BIN2 < copper.nscf > nscf.out
+#mpirun -np 24 $BIN3 < Pt.pw2wan > pw2wan.out 
+#mpirun -np 24 $BIN4 Pt
+#mpirun -np 24 $BIN5 Pt  
+
+------------------------------------------------------------
+
+Exited with exit code 255.
+
+Resource usage summary:
+
+    CPU time :                                   13.00 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   2 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s04n05>
+Subject: Job 33444117: <ptwan> in cluster <hpc> Exited
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:36:24 2021
+Job was executed on host(s) <24*s04n05>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:36:28 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example06> was used as the working directory.
+Started at Fri Jul 23 15:36:28 2021
+Terminated at Fri Jul 23 15:36:31 2021
+Results reported at Fri Jul 23 15:36:31 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+#mpirun -np 24 $BIN2 < copper.scf >   scf.out
+#mpirun -np 24 $BIN2 < copper.nscf > nscf.out
+mpirun -np 24 $BIN3 < copper.pw2wan > copper.out 
+#mpirun -np 24 $BIN4 Pt
+#mpirun -np 24 $BIN5 Pt  
+
+------------------------------------------------------------
+
+Exited with exit code 255.
+
+Resource usage summary:
+
+    CPU time :                                   28.56 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   3 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+ No copper.eig file found. Needed for disentanglement
+ Error on node 0: examine the output/error files for details
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s04n05>
+Subject: Job 33444120: <ptwan> in cluster <hpc> Exited
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:39:26 2021
+Job was executed on host(s) <24*s04n05>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:39:29 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example06> was used as the working directory.
+Started at Fri Jul 23 15:39:29 2021
+Terminated at Fri Jul 23 15:39:32 2021
+Results reported at Fri Jul 23 15:39:32 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+#mpirun -np 24 $BIN2 < copper.scf >   scf.out
+#mpirun -np 24 $BIN2 < copper.nscf > nscf.out
+#mpirun -np 24 $BIN3 < copper.pw2wan > copper.out 
+mpirun -np 24 $BIN4 copper 
+#mpirun -np 24 $BIN5 Pt  
+
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   7.61 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   2 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s04n05>
+Subject: Job 33444136: <ptwan> in cluster <hpc> Exited
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:42:17 2021
+Job was executed on host(s) <24*s04n05>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:42:19 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example06> was used as the working directory.
+Started at Fri Jul 23 15:42:19 2021
+Terminated at Fri Jul 23 15:42:23 2021
+Results reported at Fri Jul 23 15:42:23 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+#mpirun -np 24 $BIN2 < copper.scf >   scf.out
+mpirun -np 24 $BIN2 < copper.nscf > nscf.out
+#mpirun -np 24 $BIN3 < copper.pw2wan > copper.out 
+#mpirun -np 24 $BIN4 copper 
+#mpirun -np 24 $BIN5 Pt  
+
+------------------------------------------------------------
+
+Exited with exit code 255.
+
+Resource usage summary:
+
+    CPU time :                                   12.32 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   3 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s04n05>
+Subject: Job 33444141: <ptwan> in cluster <hpc> Exited
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:44:17 2021
+Job was executed on host(s) <24*s04n05>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:44:20 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example06> was used as the working directory.
+Started at Fri Jul 23 15:44:20 2021
+Terminated at Fri Jul 23 15:44:23 2021
+Results reported at Fri Jul 23 15:44:23 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+#mpirun -np 24 $BIN2 < copper.scf >   scf.out
+#mpirun -np 24 $BIN2 < copper.nscf > nscf.out
+mpirun -np 24 $BIN3 < copper.pw2wan > copper.out 
+#mpirun -np 24 $BIN4 copper 
+#mpirun -np 24 $BIN5 Pt  
+
+------------------------------------------------------------
+
+Exited with exit code 255.
+
+Resource usage summary:
+
+    CPU time :                                   16.00 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   2 sec.
+    Turnaround time :                            6 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s04n05>
+Subject: Job 33444154: <ptwan> in cluster <hpc> Exited
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:54:24 2021
+Job was executed on host(s) <24*s04n05>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:54:39 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example06> was used as the working directory.
+Started at Fri Jul 23 15:54:39 2021
+Terminated at Fri Jul 23 15:54:42 2021
+Results reported at Fri Jul 23 15:54:42 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+mpirun -np 24 $BIN2 < copper.scf >   scf.out
+#mpirun -np 24 $BIN2 < copper.nscf > nscf.out
+#mpirun -np 24 $BIN3 < copper.pw2wan > copper.out 
+#mpirun -np 24 $BIN4 copper 
+#mpirun -np 24 $BIN5 Pt  
+
+------------------------------------------------------------
+
+Exited with exit code 255.
+
+Resource usage summary:
+
+    CPU time :                                   11.01 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   2 sec.
+    Turnaround time :                            18 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s04n05>
+Subject: Job 33444155: <ptwan> in cluster <hpc> Exited
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:55:13 2021
+Job was executed on host(s) <24*s04n05>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:55:16 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example06> was used as the working directory.
+Started at Fri Jul 23 15:55:16 2021
+Terminated at Fri Jul 23 15:55:40 2021
+Results reported at Fri Jul 23 15:55:40 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+#mpirun -np 24 $BIN2 < copper.scf >   scf.out
+mpirun -np 24 $BIN2 < copper.nscf > nscf.out
+#mpirun -np 24 $BIN3 < copper.pw2wan > copper.out 
+#mpirun -np 24 $BIN4 copper 
+#mpirun -np 24 $BIN5 Pt  
+
+------------------------------------------------------------
+
+Exited with exit code 255.
+
+Resource usage summary:
+
+    CPU time :                                   109.00 sec.
+    Max Memory :                                 475 MB
+    Average Memory :                             475.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                9
+    Run time :                                   23 sec.
+    Turnaround time :                            27 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s03n09>
+Subject: Job 33444160: <ptwan> in cluster <hpc> Exited
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:56:42 2021
+Job was executed on host(s) <24*s03n09>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 15:56:44 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example06> was used as the working directory.
+Started at Fri Jul 23 15:56:44 2021
+Terminated at Fri Jul 23 15:56:51 2021
+Results reported at Fri Jul 23 15:56:51 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+#mpirun -np 24 $BIN2 < copper.scf >   scf.out
+#mpirun -np 24 $BIN2 < copper.nscf > nscf.out
+mpirun -np 24 $BIN3 < copper.pw2wan > copper.out 
+#mpirun -np 24 $BIN4 copper 
+#mpirun -np 24 $BIN5 Pt  
+
+------------------------------------------------------------
+
+Exited with exit code 255.
+
+Resource usage summary:
+
+    CPU time :                                   32.00 sec.
+    Max Memory :                                 15 MB
+    Average Memory :                             12.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                10
+    Run time :                                   7 sec.
+    Turnaround time :                            9 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+

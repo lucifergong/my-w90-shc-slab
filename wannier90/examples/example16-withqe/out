@@ -1,0 +1,180 @@
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s03n08>
+Subject: Job 33444301: <ptwan> in cluster <hpc> Done
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 16:53:24 2021
+Job was executed on host(s) <24*s03n08>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 16:53:24 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example16-withqe> was used as the working directory.
+Started at Fri Jul 23 16:53:24 2021
+Terminated at Fri Jul 23 16:53:31 2021
+Results reported at Fri Jul 23 16:53:31 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+mpirun -np 24 $BIN2 < Si.scf >   scf.out
+#mpirun -np 24 $BIN2 < Si.nscf > nscf.out
+#mpirun -np 24 $BIN3 < Si.pw2wan > Si.out 
+#mpirun -np 24 $BIN4 Si 
+#mpirun -np 24 $BIN5 Si  
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   49.00 sec.
+    Max Memory :                                 1243 MB
+    Average Memory :                             1243.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                9
+    Run time :                                   6 sec.
+    Turnaround time :                            7 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s03n08>
+Subject: Job 33444303: <ptwan> in cluster <hpc> Done
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 16:53:58 2021
+Job was executed on host(s) <24*s03n08>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 16:53:59 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example16-withqe> was used as the working directory.
+Started at Fri Jul 23 16:53:59 2021
+Terminated at Fri Jul 23 16:54:06 2021
+Results reported at Fri Jul 23 16:54:06 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+#mpirun -np 24 $BIN2 < Si.scf >   scf.out
+mpirun -np 24 $BIN2 < Si.nscf > nscf.out
+#mpirun -np 24 $BIN3 < Si.pw2wan > Si.out 
+#mpirun -np 24 $BIN4 Si 
+#mpirun -np 24 $BIN5 Si  
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   95.00 sec.
+    Max Memory :                                 1205 MB
+    Average Memory :                             1205.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                9
+    Run time :                                   6 sec.
+    Turnaround time :                            8 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@s03n08>
+Subject: Job 33444318: <ptwan> in cluster <hpc> Done
+
+Job <ptwan> was submitted from host <login1> by user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 16:56:43 2021
+Job was executed on host(s) <24*s03n08>, in queue <e52680v3ib!>, as user <zhj_gonglp> in cluster <hpc> at Fri Jul 23 16:56:45 2021
+</fs12/home/zhj_gonglp> was used as the home directory.
+</fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/examples/example16-withqe> was used as the working directory.
+Started at Fri Jul 23 16:56:45 2021
+Terminated at Fri Jul 23 16:56:51 2021
+Results reported at Fri Jul 23 16:56:51 2021
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -q e52680v3ib!
+#BSUB -n 24
+#BSUB -J ptwan
+#BSUB -o out
+#BSUB -e err
+module load ips/2019u5
+BIN1=/fs12/home/zhj_gonglp/software/wannier90/wannier90-1.2try/wannier90.x
+BIN2=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw.x
+BIN3=/fs12/home/zhj_gonglp/software/qe/qe-6.1/bin/pw2wannier90.x
+BIN4=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/wannier9033.x
+BIN5=/fs12/home/zhj_gonglp/software/wannier90/wannier90-3.1/wannier90/postw90.x
+#mpirun -np 24 $BIN2 < Si.scf >   scf.out
+#mpirun -np 24 $BIN2 < Si.nscf > nscf.out
+mpirun -np 24 $BIN3 < Si.pw2wan > Si.out 
+#mpirun -np 24 $BIN4 Si 
+#mpirun -np 24 $BIN5 Si  
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   75.00 sec.
+    Max Memory :                                 1306 MB
+    Average Memory :                             1306.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                9
+    Run time :                                   5 sec.
+    Turnaround time :                            8 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err> for stderr output of this job.
+
